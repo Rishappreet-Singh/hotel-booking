@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jobs</title>
+	<link rel="stylesheet" type="text/css" href="contact-us.css">
+	</head>
+<body>
+	<form action="firstpage.html">
+		<h2>For Recuritment</h2>
+		<h4>Enter Your Name :</h4>
+		<input type="text" name="" placeholder="Enter Your Name"><br>
+		<h4>Enter Your Address :</h4>
+		<input type="text" name="" placeholder="Enter Your Address"><br>
+		<h4>Enter Your Mobile No. :</h4>
+		<input type="text" name="" placeholder="Enter Your Mobile No."><br>
+		<h4>Enter Your Email ID :</h4>
+		<input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" name="" placeholder="Enter Your Email ID"><br>
+		<!-- write here to upload a resume  -->
+		<!-- also lock input for specific alphabets -->
+		<h5>Upload your Resume down below</h5>
+		<input type="file" name="" >
+		<input onclick="myfun()" type="submit" name="" value="Sent">
+		<p>for more information</p>
+		<p>Contact Us: 502-3659</p>
+	</form>
+		<script type="text/javascript">
+			function myfun() {
+			alert("YOUR INFOMATION HAS BEEN SENT \n THANK YOU");
+		}
+		</script>
+
+	<!-- after javascript alert your file has been sent something... -->
+</body>
+</html>

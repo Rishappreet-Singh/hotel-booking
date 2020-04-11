@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>PAYMENT</title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body style="background : linear-gradient( 0.25turn, #3f87a6, #ebf8e1, #f69d3c); font-size: 1.25em">
+	<h2>Payment For Your Booking</h2>
+	<div class="row">
+		<div class="col-75">
+		    <div class="container">
+		      	<form action="lastpage.html">
+				    <div class="row">
+				        <div class="col-50">
+				            <h3>Billing Address</h3>
+				            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+				            <input required="required" type="text" id="fname" name="firstname" placeholder="e.g. Ramu M. Sharma">
+				            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+				            <input required="required" type="text" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" placeholder="e.g. ramu@example.com">
+				            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+				            <input required="required" type="text" id="adr" name="address" placeholder="e.g. 542 W. 15th Street">
+				            <label for="city"><i class="fa fa-institution"></i> City</label>
+				            <input required="required" type="text" id="city" name="city" placeholder="e.g. New Delhi">
+				            <div class="row">
+				              		<div class="col-50">
+				                	<label for="state">State</label>
+				                	<input required="required" type="text" id="state" name="state" placeholder="e.g. DL">
+				              	</div>
+				              	<div class="col-50">
+				                	<label for="zip">Zip</label>
+				                	<input required="required" type="text" id="zip" name="zip" placeholder="e.g. 10001">
+				             	</div>
+				            </div>
+				        </div>
+
+				          	<div class="col-50">
+				            	<h3>Payment</h3>
+				            	<label for="fname">Accepted Cards</label>
+				            	<div class="icon-container">
+					              	<i class="fa fa-cc-visa" style="color:navy;"></i>
+					            	<i class="fa fa-cc-amex" style="color:blue;"></i>
+					              	<i class="fa fa-cc-mastercard" style="color:red;"></i>
+					              	<i class="fa fa-cc-discover" style="color:orange;"></i>
+				            	</div>
+				            	<label for="cname">Name on Card</label>
+				            	<input required="required" type="text" id="cname" name="cardname" placeholder="e.g. Ramu More Sharma">
+				            	<label for="ccnum">Credit card number</label>
+				            	<input required="required" type="text" id="ccnum" pattern=".{16,}" name="cardnumber" placeholder="e.g. 1111-2222-3333-4444">
+				            	<label for="expmonth">Exp Month</label>
+				           		<input required="required" type="text" id="expmonth" name="expmonth" placeholder="e.g. September">
+				            	<div class="row">
+				              	<div class="col-50">
+				                	<label for="expyear">Exp Year</label>
+				                	<input required="required" type="text" id="expyear" name="expyear" placeholder="e.g. 2025">
+				              	</div>
+				              	<div class="col-50">
+				                	<label for="cvv">CVV</label>
+				                	<input required="required" type="text" id="cvv" pattern=".{3,}"  name="cvv" placeholder="e.g. 352">
+				              	</div>
+				            	</div>	
+				          	</div>
+				    </div>
+		     	   	<label>
+		     	   		<p>SPECIAL MEMBERS*(GET 20% OFF/-)</p>
+				      	<input type="text" name="sameadr" placeholder="Enter Your Memeber pass (if any)">
+		        	</label>
+		        	<input onclick="myfun()" type="submit" value="Continue to PAY" class="btn">
+		        	<input type="submit" value="CANCEL" class="bt1" onclick="document.location='firstpage.html'">		    	
+		    	</form>
+					<script type="text/javascript">
+						function myfun() {
+						alert("THE BOOKING NO. IS:\n        'cfg14256'\n         Save this.");
+					}
+					</script>		   
+		    </div>
+		</div>
+	  	<div class="col-25">
+		    <div class="container">
+		      	<h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+		      	<p><a href="rooms.html" class="items">BED Room</a> <span class="price">₹ 125,684</span></p>
+		      	<p><a href="rooms.html" class="items">Food</a> <span class="price">₹ 80,513</span></p>
+		      	<p><a href="rooms.html" class="items">Swimming pool</a> <span class="price">₹ 30,954</span></p>
+		      	<p><a href="rooms.html" class="items">Event</a> <span class="price">₹ 18,833</span></p>
+		      	<hr>
+		      	<p>Total <span class="price" style="color:black"><b>₹ 255,984</b></span></p>
+		    </div>
+		    <br><br><br><br>
+		    <div class="container">
+		      	<h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+		      	<p><a href="rooms.html" class="items">BED Room</a> <span class="price">₹ 125,684</span></p>
+		      	<p><a href="rooms.html" class="items">Food</a> <span class="price">₹ 80,513</span></p>
+		      	<p><a href="rooms.html" class="items">Swimming pool</a> <span class="price">₹ 30,954</span></p>
+		      	<p><a href="rooms.html" class="items">Event</a> <span class="price">₹ 18,833</span></p>
+		      	<p><a href="signup.html" class="items">Membership off</a> <span style="color: red;" class="price">₹ -51,196.8</span></p>
+		      	<hr>
+		      	<p>Total <span class="price" style="color:black"><b>₹ 204,787.2</b></span></p>
+		    </div>	  	
+	  	</div>
+	</div>
+</body>
+</html>

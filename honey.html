@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Booking</title>
+	<link rel="stylesheet" type="text/css" href="book.css">
+</head>
+<body>
+	<div id="navbar" >
+	  <a  href="bokk.html">Rooms</a>
+	  <a class="active" href="honey.html">Honeymoon sweet</a>
+	  <a href="sup.html">Superior</a>
+	  <a href="meet.html">Meetings</a>
+	  <a href="cngbok.html">Change Booking</a>
+
+	</div>
+	<br><br>
+	<form class="kalu" action="dates.html">
+		<div class="input">
+			<span class="yos">Honeymoon sweet</span>
+			<br>
+			<span class="yos">ROOMS</span>
+			<input class="output" type="text" size="25" value="1" id="counti">
+			<input class="sub" type="button" value="-" id="mineus" onclick="minusi()">
+			<input class="add" type="button" value="+" id="plues" onclick="plusi()">
+			<hr style="background-color: rgb(130,101,73); height:5px;">
+		</div>
+
+		<script type="text/javascript">
+			var counti=1;
+			var countiEl= document.getElementById("counti");
+			function plusi()  {
+				counti++;
+				countiEl.value=counti;
+			}
+			function minusi() {
+				if(counti>0){
+					counti--;
+					countiEl.value=counti;
+				}
+			}
+		</script>
+			
+		<div class="input">
+			<span class="yos">ADULTS</span>
+			<input class="output" type="text" size="25" value="1" id="count">
+			<input class="sub" type="button" value="-" id="inus" onclick="minus()">
+			<input class="add" type="button" value="+" id="lus" onclick="plus()">
+			<hr style="background-color: rgb(130,101,73); height:5px;">
+		</div>
+
+		<script type="text/javascript">
+			var count=1;
+			var countEl= document.getElementById("count");
+			function plus()  {
+				count++;
+				countEl.value=count;
+			}
+			function minus() {
+				if(count>1){
+					count--;
+					countEl.value=count;
+				}
+			}
+		</script>
+		<br>
+		<div class="input">
+			<span class="yos">CHILDREN</span>
+			<input class="output" type="text" size="25" value="0" id="cou">
+			<input class="sub" type="button" value="-" id="mainu" onclick="minu()">
+			<input class="add" type="button" value="+" id="plau" onclick="plu()">
+			<hr style="background-color: rgb(130,101,73); height:5px;">
+		</div>
+		<p>(2-11 YEARS OLD)</p>
+
+		<script type="text/javascript">
+			var cou=1;
+			var couEl= document.getElementById("cou");
+			function plu()  {
+				cou++;
+				couEl.value=cou;
+			}
+			function minu() {
+				if(cou>0){
+					cou--;
+					couEl.value=cou;
+				}
+			}
+		</script>
+
+		<div class="input">
+			<span class="yos">INFANTS</span>
+			<input class="output" type="text" size="25" value="0" id="coun">
+			<input class="sub" type="button" value="-" id="minulas" onclick="minuas()">
+			<input class="add" type="button" value="+" id="plulas" onclick="pluas()">
+			<hr style="background-color: rgb(130,101,73); height:5px;">
+		</div>
+		<p>(UNDER 2 YEARS OLD)</p>
+		<script type="text/javascript">
+			var coun=1;
+			var counEl= document.getElementById("coun");
+			function pluas()  {
+				coun++;
+				counEl.value=coun;
+			}
+			function minuas() {
+				if(coun>0){
+					coun--;
+					counEl.value=coun;
+				}
+			}
+		</script>
+		<button class="yos" id="jos" >CONTINUE TO DATES</button>
+		<button class="yos" id="soj" onclick="document.location='firstpage.html'" >CANCEL</button>
+	</form>
+</body>
+</html>

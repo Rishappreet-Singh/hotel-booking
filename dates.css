@@ -1,0 +1,78 @@
+body{
+	margin :0;
+	padding: 0;
+	font-family: cursive;
+	background:steelblue;
+}
+.kalu{
+	width:300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	color: white;
+	transform: translate(-50%,-50%);
+	background-color: #191919;
+	text-align: center;
+}
+
+.kalu input[type="date"]
+{
+	border:2px soild;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border-color: #3498db;
+	padding: 14px 10px;
+	width:250px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.30s;
+}
+
+
+.kalu input[type="date"]:focus
+{
+	width:280px;
+	border-color:#2ecc71 ;
+
+}
+
+.kalu input[type="date"]:hover
+{
+	width:280px;
+	border-color:#2ecc71 ;	
+}
+.hoa:hover{
+	background-color: rgb(130,101,73);
+}
+.hoa{
+	width: 280px;
+	height: 50px;
+	border-radius: 35px;
+	color: white;
+	background-color: #191919;
+	outline: none;
+	border-color: #2ecc71;
+}
+.bt1{
+	border:1;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border-color: rgb(160 , 35, 55);
+	padding: 14px 40px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+
+.bt1:hover{
+	background-color: rgb(153,37,54);
+}

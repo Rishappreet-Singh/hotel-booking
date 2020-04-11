@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Burj-Al-Arab Booking</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="style.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body >
+	<div class="shadow">	
+		<img src="img-1.jpg" width="100%" height="auto" class="img">
+		<div id="heading">Burj-Al-Arab </div>
+		<div class="left" id="login"><a href="login.html" class="link" >Login</a></div>
+			<br>
+		<div class="left" id="signup">
+			<a href="signup.html" class="link">Sign Up</a>
+		</div>
+	</div>
+
+	<div class="search">
+		<input class="search-txt" type="text" placeholder="Type to search" >
+
+		<i class="fas fa-search"></i>
+	</div>
+	<br>
+	<div id="navbar" >
+	  <a href="#coc">Hotel</a>
+	  <a href="#mone">Location</a>
+	  <a href="#pols">Facilites Service</a>
+	  <a href="#kontact">Contact</a>
+	  <a>
+	  	<input class="book" type="submit" value="BOOK DONE" class="booking" style="background-color: rgb(34,115,36);color: white; border-color: violet; ">
+	  </a>
+	</div>
+	<script type="text/javascript">
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}
+	</script>
+		<a id="coc"></a>
+	<div class="box">
+		<h3 style="text-align: center;color: brown">SUITES</h3>
+		<p style="text-align: center;font-size: 2em">Sumptuous surroundings<br> unforgettable stays</p>
+		<p class="lomu">Soaring elegance with </p>
+		<div class="slideshow-container">
+			<div class="s1">
+				<div class="mySlides1">
+			    	<img class="nap" src="bed1.jpg" style="width:100%">
+			  	</div>
+			  	<div class="mySlides1" style="box-shadow: 0px 0px 50px 30px black inset;">
+			    	<img class="nap" src="bed2.jpg" style="width:100%; ">
+			  	</div>
+			  	<div class="mySlides1">
+			    	<img class="nap" src="bed3.jpg" style="width:100%">
+			  	</div>
+			  	<div class="mySlides1">
+			   		<img class="nap" src="bed4.jpg" style="width:100%">
+				</div>
+				<div class="mySlides1" style="box-shadow: 0px 0px 50px 30px black inset;">
+			    	<img class="nap" src="bed5.jpg" style="width:100%; ">
+			  	</div>
+			  	<div class="mySlides1">
+			    	<img class="nap" src="bed6.jpeg" style="width:100%">
+			  	</div>
+			  	<div class="mySlides1">
+			    	<img class="nap" src="bed7.jpg" style="width:100%">
+			  	</div>
+			  	<div class="mySlides1">
+			    	<img class="nap" src="bed8.jpg" style="width:100%">
+			  	</div>
+			  	<div class="mySlides1">
+			    	<img class="nap" src="bed9.jpg" style="width:100%">
+			  	</div>
+			  	<div class="mySlides1">
+			    	<img class="nap" src="bed10.jpg" style="width:100%">
+			 	</div>
+				<div style="text-align: center; font-size: 1.5em;" >
+					comfort and space</div>
+				<div style="text-align: center;" >
+					<input class="goku" type="submit" value="BOOK THIS ROOM" onclick="document.location='bokk.html'">
+				</div>
+			  	<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+			  	<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<div  class="swift" >
+		<div><img class="hap" src="swi2.jpg" width="100%" ></div>
+		<div class="lod" id="pol"><p>ATTENTION TO DETAIL</p></div>
+		<div class="lod" id="bol"><p>A landmark of architectual<br> innovation</p></div>
+		<div class="lod" id="kol"><p>A hotel that's home to cutting-edge<br> engineering - from the unique<br> man-madebeach and infinity pool terrace, to<br> the tallest grand atrium at 180<br> meters high</p></div>
+		</div>
+	</div>
+	<a id="pols"></a>
+	<div class="box"><br>
+		<h3 style="text-align: center;color: brown">WHERE MEMORIES ARE MADE</h3>
+		<p style="font-size: 1.5em; text-align: center; font-family: cursive;">An unforgetable <br> experience</p>
+		<div class="slideshow-container" id="yoo">
+			<div>
+			  	<div class="mySlides2" style="	box-shadow: 0px 0px 80px 25px black inset;">
+			    	<img class="ded" src="food1.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides2">
+			    	<img class="ded" src="food2.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides2">
+			    	<img class="ded" src="food3.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides2">
+			    	<img class="ded" src="food4.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides2">
+			    	<img class="ded" src="food5.jpeg" style="width:100%">
+			  	</div>
+
+			  	<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+				<a class="next"  onclick="plusSlides(1, 1)">&#10095;</a>
+			</div>
+		</div>
+	
+		<h3 style="text-align: center;">EXQUISITE DINING</h3>
+		<p style="text-align: center; font-size: 2em;">AL Muntaha</p>	
+		<div class="slideshow-container">
+			<div>
+			  	<div class="mySlides3" style="	box-shadow: 0px -20px 110px 70px black inset;">
+			    	<img class="gope" src="des1.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides3">
+			    	<img class="gope" src="des2.jpg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides3">
+			    	<img class="gope" src="des3.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides3">
+			    	<img class="gope" src="des4.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides3">
+			    	<img class="gope" src="des5.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides3">
+			    	<img class="gope" src="des6.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides3">
+			    	<img class="gope" src="des7.jpeg" style="width:100%">
+			  	</div>
+
+			  	<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+			  	<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+			</div>
+		</div>
+			<hr><br><br>
+		<div style="margin-left: 10vw">
+			<div>
+				OUR<br>PHILOSOPHY
+			</div>
+			<div>
+				<p style="font-size: 2em;">Down to  every last detail</p>				
+			</div>
+		</div>
+		<div style="display: flex; ">
+			<div>
+				<hr style="height: 70vh;margin-bottom: 8vw; margin-left: 8vw; margin-right:8vw ">
+			</div>
+			<div>
+				<div style="margin-top: 11vh">
+					"Burj Al Arab takes hotel<br>design to a new level of <br>mordern luxury, and also redefined the meaning of<br> exceptional hospitality, both<br> in Dubai and around the world."
+				</div>
+				<div style="margin-top: 15vh">
+					<b>Anthony Costa</b>
+					<p style="font-family: monospace;"> REGINAL VICE PRESIDENT OF <br> OUR GROUP AND <br> MANAGING DIRECTOR OF BURJ <br> AL ARAB</p>
+				</div><a id="swim"></a>
+			</div>	
+		</div>
+		<hr><br>
+		<h3 style="text-align: center;">BURJ AL ARAB OFFERS</h3>
+		<p style="text-align: center; font-size: 2em;">For our valued <br> guests</p>
+		<div class="slideshow-container" id="s4">
+			<div>
+			  	<div class="mySlides4">
+			    	<img class="klsd" src="spa1.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides4">
+			    	<img class="klsd" src="spa0.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides4">
+			    	<img class="klsd" src="spa2.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides4">
+			    	<img class="klsd" src="spa3.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides4">
+			    	<img class="klsd" src="spa4.jpeg" style="width:100%">
+			  	</div>
+
+			  	<div class="mySlides4">
+			    	<img class="klsd" src="spa5.jpeg" style="width:100%">
+			  	</div>
+
+			  	<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+			  	<a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+			</div>
+					<a id="kontact"></a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var slideIndex = [1,1,1,1];
+		var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+		showSlides(1, 2);
+		showSlides(1, 3);
+
+		function plusSlides(n, no) 
+		{
+			showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+		  	var i;
+		  	var x = document.getElementsByClassName(slideId[no]);
+		  	if (n > x.length) {slideIndex[no] = 1}    
+		  	if (n < 1) {slideIndex[no] = x.length}
+		  	for (i = 0; i < x.length; i++) 
+		  	{
+		    	x[i].style.display = "none";  
+		  	}
+		  	x[slideIndex[no]-1].style.display = "block";  
+		}
+	</script>
+	<br><hr><br>
+	<div>
+		<div  class="cc">
+			CONTACT
+		</div>
+		<div class="git">
+			Get in touch
+		</div>
+		<div style="display: flex; ">
+			<div>
+				<hr style="height: 25vh; margin: 8vw;">
+			</div>
+			<div>
+				<div style="margin-top: 25vh">
+					ADDRESS
+				</div>
+				<div>
+					St-Dubai,PO BOX<br>
+					74147, Dubai, UAE
+				</div>
+			</div>
+		</div>
+		<div style="display: flex; ">	
+			<div>
+				<hr style="height: 25vh; margin-right: 8vw; margin-left: 8vw; ">
+			</div>
+			<div>
+				<div style="margin-top: 10vh">
+					TELEPHONE
+				</div>
+				<div>
+					+971 4 301 7777
+				</div>
+			</div>
+		</div>
+		<div style="display: flex; ">
+			<div>
+				<hr style="height: 25vh; margin: 8vw">
+			</div>
+			<div>
+				<div style="margin-top: 25vh">
+					EMAIL
+				</div>
+				<div>
+					baainfo@gamil.com
+				</div>
+			</div>	
+			<br><br>
+		</div>
+	</div>
+	<hr>
+	<div>
+		<p style=" margin-left: 3%; font-size: 80px"> Our Pesence </p>
+		<p style="font-size:50px ; width: 250px ;margin-left: 4%">Dubai</p>
+	</div>
+	<br>
+	<br>
+	<a id="mone"></a>
+	<span><a href="#swim" style="color: white; text-decoration: none;"> Recommended Destinatons</a></span><span class="left"><q> Looking assistant </q></span>
+	<br>
+	<button class="left" onclick="document.location='contact-us.html'" style="margin-right:6vw; height: 4vh;width: 6vw; border-radius: 12px; border-color: orange; color: white; background-color: violet;" >Contact us</button>
+</body>
+</html>
+<!-- to add change the booking add alert code in last and give code before change booking -->

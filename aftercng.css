@@ -1,0 +1,86 @@
+body{
+	margin :0;
+	padding: 0;
+	font-family: cursive;
+	background:steelblue;
+}
+
+.kalu h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	
+}
+.sis:hover
+{
+	background-color: #2ecc71;
+}
+.kalu{
+	width:300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color: #191919;
+	text-align: center;
+}
+
+.pip
+{
+	border:2px soild;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border-color: #3498db;
+	padding: 14px 10px;
+	width:200px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.25s;
+}
+
+.pip:focus
+{
+	width:280px;
+	border-color:#2ecc71 ;
+
+}
+
+.sis
+{
+	border:1;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border-color: #2ecc71;
+	padding: 14px 40px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.cancel{
+	border:1;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border-color: rgb(153,37,54);
+	padding: 14px 40px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+
+.cancel:hover{
+	background-color: rgb(153,37,54);
+}

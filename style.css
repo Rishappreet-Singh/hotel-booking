@@ -1,0 +1,284 @@
+body{
+	font-size: 1.35em;
+	background-color: rgb(54,51,50);
+	color: white;
+	margin: 0;
+}
+
+.left{
+	float: right;
+	margin-right: 3%
+}
+
+.link{
+	text-decoration: none;
+	color: blue;
+}
+
+.shadow{
+	box-shadow: 0px -100px 150px 90px black inset;
+	position: relative;
+}
+
+.img,.hap,.nap,.ded,.gope,.klsd{
+	display: block; position: relative; z-index: -1;
+}
+.hap{
+	margin-top:8vh ;
+}
+
+.swift{
+	box-shadow: 0px 20px 231px 60px black inset,0px -500px 231px 60px black inset;
+	position: relative;
+}
+
+#heading{
+	position: absolute;
+	text-align: center;
+	left: 3%;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	top: 1.5vh;
+	color: rgb(204,144,65);
+}
+
+#login{
+	position: absolute;
+	outline: none;
+	text-align: center;
+	right: 1%;
+	top: 1.5vh;
+
+}
+
+#signup{
+	position: absolute;
+	text-align: center;
+	outline: none;
+	right: 1%;
+	top: 7vh;
+}
+
+.search{
+	position: absolute;
+	top:5%; right: 15%;
+	transform: translate(10%,-50%);
+	background-color: #2f3640;
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px;
+
+}
+
+.search:hover >.search-txt{
+	width: 250px;
+	padding: 0 6px;
+}
+
+.search-but{
+	color: white;
+	float: right;
+	border-radius: 50%;
+	background-color: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 20px;
+	width: 0px;
+}
+
+.book{
+	height: 40px;
+	width: 105px;	
+	text-decoration: bold;
+	background-color: rgb(128,77,5);
+	color: rgb(48,147,156);
+	border-color: rgb(115,115,115);
+
+	outline: none;
+	text-align: center;
+}
+
+.box {
+	box-sizing: border-box ;
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+	display: none;
+	width: 100%;
+
+}
+
+.mySlides1{
+	box-shadow: 0px -20px 110px 70px black inset;
+	position: relative;
+}
+
+.mySlides2{
+	box-shadow: 0px -20px 110px 40px black inset;
+	position: relative;
+}
+
+.mySlides3{
+	box-shadow: 0px 0px 85px 30px black inset;
+	position: relative;
+}
+
+.mySlides4{
+	box-shadow: 0px 0px 85px 40px black inset;
+	position: relative;
+}
+
+img {
+	vertical-align: middle;
+	display: block;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 27%;
+  position: relative;
+  margin: auto;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 27%;
+  height: 90vh;
+	}
+
+#yoo{
+  max-width: 30%;
+  position: relative;
+  margin: auto;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 30%;
+  height: 55vh;
+  /*background-color: black;*/
+}
+
+#s4{
+	height: 82vh;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	overflow: hidden;
+  	background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 96px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.cc{
+	text-align: center;
+	font-size: 2em;
+	font-family: serif;
+}
+.git{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 2.5em
+}
+.lod{
+	text-align: center;
+}
+#pol{
+	transform: translateY(-800%);
+	font-size: 1.30em;	
+}
+#bol{
+	transform: translateY(-280%);
+	font-size: 1.8em;
+}
+#kol{
+	transform: translateY(-150%);
+	font-size: 1.30em;	
+
+}
+.goku{
+	background-color: rgb(171,105,79) ;
+	color: white;
+	padding: 15px;
+}
+.goku:hover{
+	background-color: rgb(59,41,35) ;
+}
+.lomu{
+	font-size: 1.5em; 
+	text-align: center;
+	margin-bottom: 3vh; 
+}
